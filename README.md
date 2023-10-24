@@ -41,6 +41,9 @@ run aws-scripts/deploy.sh
 To verify that the service is running we can use this command:
 ecs-cli ps
 you should be able to see the below,
+![img.png](img.png)
+
+test your api: http://3.88.166.239/all 
 
 
    
