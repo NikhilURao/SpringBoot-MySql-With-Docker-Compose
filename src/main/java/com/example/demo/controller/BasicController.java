@@ -23,7 +23,4 @@ public class BasicController {
 		
 		return personService.findAll();
 	}
-	
-	
-	
 }

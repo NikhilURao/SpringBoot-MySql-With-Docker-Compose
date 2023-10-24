@@ -1,6 +1,7 @@
-version: "3.7"
+version: "3"
 services:
   api_service:
+    image: "springboot-mysql-with-docker-compose-api_service:latest"
     build: .
     restart: always
     ports:
